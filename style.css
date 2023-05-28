@@ -1,0 +1,239 @@
+body{
+    background-color: #FEF848;
+    margin: 0;
+}
+
+#heading{
+    text-align: center;
+    margin: 0;
+}
+
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: #518991;
+    /* flex: 1; */
+    margin: 30px;
+    animation: firstbox 4s infinite ease-in-out;
+    /* animation-delay: 2s; */
+
+}
+
+@keyframes firstbox {
+    0% {transform: skew(-10deg,-10deg);}
+
+    50% {transform: skew(10deg,10deg);}
+
+    100% {transform: skew(-10deg,-10deg);}
+}
+
+
+
+ 
+
+.parent1{
+    display: flex;
+    list-style-type: decimal;
+}
+
+.row{
+    display: flex;
+}
+
+
+
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: #A0A0A0;
+    margin: 30px;
+    animation: secondbox 3s infinite alternate-reverse;
+    /* animation-delay: 2s; */
+    
+}
+
+
+@keyframes secondbox {
+    0% {transform: skew(-10deg,-10deg);}
+
+    50% {transform: skew(10deg,10deg);}
+
+    100% {transform: skew(-10deg,-10deg);}
+}
+
+
+
+
+.box3{
+    height: 100px;
+    width: 100px;
+    background-color: #518991;
+    margin: 30px;
+    animation: thirdbox 3s infinite ease-in;
+    
+}
+
+@keyframes thirdbox {
+    0% {transform: rotate(0deg);}
+
+    100% {transform: rotate(360deg);}
+}
+
+
+
+.box4a{
+    height: 60px;
+    width: 100px;
+    background-color: #528A92;
+    margin: 30px;
+    border: 2px solid #538079;
+    animation: forthboxa 4s infinite alternate;
+}
+
+@keyframes forthboxa {
+    0% {
+        transform: scaleY(1);
+    }
+
+    50% {
+        transform: scaleY(1.5);
+    }
+
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+
+
+.box4b{
+    height: 100px;
+    width: 40px;
+    background-color: #9B4837;
+    margin: 30px;
+    border: 2px solid #6E3712;
+    animation: forthboxb 4s infinite alternate;
+}
+
+@keyframes forthboxb {
+    0% {
+        transform: scaleX(1);
+    }
+
+    50% {
+        transform: scaleX(2);
+    }
+
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.box4c{
+    height: 100px;
+    width: 100px;
+    background-color: #62AA4E;
+    margin: 30px;
+    border: 2px solid #608524;
+    animation: forthboxc 4s infinite ease-out;
+}
+
+@keyframes forthboxc {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(110deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+a {
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.parent1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: #90C633;
+    
+    
+}
+
+.box11{
+    transition: width 2s;
+    transition-timing-function: ease-out;
+}
+
+.box11:hover {
+    width: 300px;
+}
+
+.box22{
+    transition: width 2s, height 4s;
+}
+
+.box22:hover {
+    width: 300px;
+    height: 300px;
+}
+
+.box33{
+    transition: width 2s;
+    transition-timing-function: linear;
+}
+
+.box33:hover {
+    width: 300px;
+}
+
+.box44{
+    transition: width 2s;
+    transition-timing-function: ease;
+}
+
+.box44:hover {
+    width: 300px;
+}
+
+.box55{
+    transition: width 2s;
+    transition-timing-function: ease-in;
+}
+
+.box55:hover {
+    width: 300px;
+}
+
+.box66{
+    transition: width 2s;
+    transition-timing-function: ease-in;
+}
+
+.box66:hover {
+    width: 300px;
+}
+
+.box77{
+    transition: width 2s;
+    transition-timing-function: ease-in-out;
+}
+
+.box77:hover {
+    width: 300px;
+}
